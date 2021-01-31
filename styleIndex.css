@@ -157,9 +157,15 @@ h1
 {
     width: 800px;
     justify-content: center;
-    padding: 10px;
     border-radius: 30px;
+    border: 5px solid rgb(0, 255, 0);
 }
+
+.barraseparadora
+{
+    margin: 10px;
+}
+
 .comoParticipar
 {
     display: flex;
