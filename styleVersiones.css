@@ -195,6 +195,7 @@ aside section h1
     background-color: rgb(29, 0, 59); 
     color: rgb(255, 255, 255); 
     border: 2px solid #0191ff;
+    margin: 20px;
 }
 
 .button2:hover 
