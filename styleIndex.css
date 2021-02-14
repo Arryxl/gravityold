@@ -138,6 +138,12 @@ main a
     text-decoration: none;
 }
 
+.aqui1:hover
+{
+    color: blue;
+    transition: 1s;
+}
+
 .quienesSomos
 {
     display: flex;

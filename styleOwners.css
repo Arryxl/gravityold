@@ -126,6 +126,22 @@ h1
     padding: 20px;
 }
 
+.needstaff
+{
+    font-size: 20px; 
+    display: flex; 
+    justify-content: 
+    center; text-align: 
+    center; color: greenyellow; 
+    text-decoration: none;
+    margin: 10px;
+}
+.needstaff:hover
+{
+    color: blue;
+    transition: 1s;
+}
+
 .description
 {
     display: inline;
