@@ -339,6 +339,22 @@ footer
     align-items: center;
 }
 
+.RedesSociales
+{
+    border: none;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.LogoFooter:hover
+{
+    background-color: rgb(255, 77, 77);
+    transition-duration: 0.7s;
+    border-radius: 50%;
+}
+
 .LogoFooter
 {
     width: 60px;
