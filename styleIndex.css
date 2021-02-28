@@ -8,8 +8,8 @@
 html
 {
     font-size: 62.5%;
-    font-family: 'Yusei Magic', Arial, sans-serif;
     background-color:rgb(255, 77, 77);
+    font-family: 'Stick', sans-serif;
 }
 
 /* This is Header */
@@ -37,6 +37,13 @@ nav
     height: 75px;
     float: left;
     padding: 10px;
+}
+
+.LogoHeader:hover
+{
+    transition-duration: 0.6s;
+    background-color: rgb(255, 77, 77);
+    border-radius: 50%;
 }
 
 .menu
@@ -350,8 +357,8 @@ footer
 
 .LogoFooter:hover
 {
-    background-color: rgb(0, 175, 23);
-    transition-duration: 0.7s;
+    background-color: rgb(255, 119, 119);
+    transition-duration: 0.5s;
     border-radius: 35%;
 }
 
@@ -403,4 +410,5 @@ footer
 {
     background-color: #0191ff;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
