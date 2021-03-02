@@ -9,7 +9,7 @@ html
 {
     font-size: 62.5%;
     background-color:rgb(255, 77, 77);
-    font-family: 'Stick', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* This is Header */
@@ -330,6 +330,46 @@ footer
     align-items: center;
 }
 
+.youtube:hover
+{
+    background-color: rgb(255, 0, 0);
+    transition-duration: 0.5s;
+    border-radius: 40%;
+    padding: 15px;
+}
+
+.instagram:hover
+{
+    background-color: rgb(234, 0, 255);
+    transition-duration: 0.5s;
+    border-radius: 40%;
+    padding: 15px;
+}
+
+.omlet:hover
+{
+    background-color: rgb(255, 169, 129);
+    transition-duration: 0.5s;
+    border-radius: 40%;
+    padding: 15px;
+}
+
+.github:hover
+{
+    background-color: rgb(99, 99, 99);
+    transition-duration: 0.5s;
+    border-radius: 40%;
+    padding: 15px;
+}
+
+.discord:hover
+{
+    background-color: rgb(62, 98, 255);
+    transition-duration: 0.5s;
+    border-radius: 40%;
+    padding: 13px;
+}
+
 .LogoFooter
 {
     width: 60px;
@@ -343,12 +383,23 @@ footer
 {
     text-decoration: none;
     padding: 5px;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    border: none;
+    color: rgb(60, 0, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .versiones:hover
 {
-    color: rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+    background-color: #0191ff;
+    transition-duration: 0.5s;
+    border-radius: 20%;
 }
 
 .versiones:active
@@ -363,13 +414,6 @@ footer
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-}
-
-.LogoFooter:hover
-{
-    background-color: rgb(0, 175, 23);
-    transition-duration: 0.7s;
-    border-radius: 35%;
 }
 
 .pcreator
