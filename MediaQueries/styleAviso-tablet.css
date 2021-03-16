@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 54, 116);
+}
+
+h1
+{
+    font-size: 3.4rem;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.pc
+{
+    justify-content: center;
+    width: 300px;
+    padding: 30px 30px;
+    transition-duration: 0.5s;
+}
+.pc:hover
+{
+    background-color: rgb(60, 0, 255);
+    transition-duration: 0.5s;
+    border-radius: 20px;
+}
+
+.p
+{
+    font-size: 1.8rem;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 0 10px;
+    transition-duration: 0.5s;
+}
+.p:hover
+{
+    font-size: 1.6rem;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 0 10px;
+    background-color: rgb(60, 0, 255);
+    transition-duration: 0.5s;
+    border-radius: 20px;
+}
+
+.aviso
+{
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+
+.imgGravity
+{
+    width: 100%;
+    height: 100%;
+}
+.button1
+{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.button 
+{
+    border: none;
+    color: rgb(60, 0, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 1.8rem;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 12px 2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 10px 10px 12px 2px rgba(0,0,0,0.7);
+    box-shadow: 10px 10px 12px 2px rgba(0,0,0,0.7);
+}
+
+.button1 a
+{
+    text-decoration: none;
+}
+
+.button2 
+{
+    background-color: rgb(29, 0, 59); 
+    color: rgb(255, 255, 255); 
+}
+
+.button2:hover 
+{
+    background-color: #0191ff;
+    color: rgb(255, 255, 255);
+}
+
+footer
+{
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+footer section
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .left ul
+{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.left li
+{
+    margin: 10px 0;
+}
+
+.left a
+{
+    text-decoration: none;
+    color: white;
+}
+.left a:hover
+{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.right img
+{
+    width: 90px;
+    transition-duration: 0.5s;
+}
+
+.right img:hover
+{
+    width: 80px;
+    background-color: rgb(229, 255, 0);
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    padding: 10px;
+}
