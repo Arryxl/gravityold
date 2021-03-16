@@ -421,7 +421,7 @@ footer
     color: rgb(255, 255, 255);
     background-color: #0191ff;
     transition-duration: 0.5s;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 .versiones:active
