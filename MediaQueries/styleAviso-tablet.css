@@ -17,7 +17,7 @@ html
 
 h1
 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     width: 100%;
     min-width: 320px;
     max-width: 1000px;
@@ -29,34 +29,24 @@ h1
     justify-content: center;
     width: 300px;
     padding: 30px 30px;
-    transition-duration: 0.5s;
-}
-.pc:hover
-{
-    background-color: rgb(60, 0, 255);
-    transition-duration: 0.5s;
-    border-radius: 20px;
 }
 
 .p
 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 100%;
     min-width: 320px;
     max-width: 1000px;
     padding: 0 10px;
-    transition-duration: 0.5s;
 }
 .p:hover
 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: 100%;
     min-width: 320px;
     max-width: 1000px;
     padding: 0 10px;
     background-color: rgb(60, 0, 255);
-    transition-duration: 0.5s;
-    border-radius: 20px;
 }
 
 .aviso
@@ -90,7 +80,7 @@ h1
     text-align: center;
     text-decoration: none;
     display: inline;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -133,7 +123,7 @@ footer section
 
 footer .left ul
 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.8rem;
     list-style: none;
@@ -153,20 +143,9 @@ footer .left ul
 {
     text-decoration: none;
     color: rgb(255, 0, 0);
-    transition-duration: 0.4s;
 }
 
 .right img
 {
-    width: 90px;
-    transition-duration: 0.5s;
-}
-
-.right img:hover
-{
     width: 80px;
-    background-color: rgb(229, 255, 0);
-    transition-duration: 0.4s;
-    border-radius: 20px;
-    padding: 10px;
 }

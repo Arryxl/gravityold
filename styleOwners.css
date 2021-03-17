@@ -9,7 +9,7 @@ html
 {
     font-size: 62.5%;
     background-color:rgb(255, 77, 77);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* This is Header */
@@ -399,7 +399,7 @@ footer
     color: rgb(255, 255, 255);
     background-color: #0191ff;
     transition-duration: 0.5s;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 .versiones:active
@@ -423,7 +423,7 @@ footer
 
 .pcreator
 {
-    border: none;
+    border-radius: 20px;
     color: rgb(60, 0, 255);
     text-align: center;
     text-decoration: none;
