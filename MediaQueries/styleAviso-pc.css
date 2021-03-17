@@ -157,6 +157,20 @@ footer .left ul
     transition-duration: 0.4s;
 }
 
+.left .github a:hover
+{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    transition-duration: 0.4s;
+}
+
+.left .discord a:hover
+{
+    text-decoration: none;
+    color: rgb(85, 87, 255);
+    transition-duration: 0.4s;
+}
+
 .right img
 {
     width: 90px;
